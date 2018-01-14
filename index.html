@@ -18,13 +18,13 @@
 		<meta charset="utf-8" /> 
 				
 		<meta name="description" content="Official Website of Deepen Classes. 
-			Deepen Classes is one of the best tution center in Delhi. 
-			Deepen Classes provides quality and focussed teaching for its student to perfectly aim towards their career goal. 
-			We also provide Home Tution at affordable prices." />
+			Deepen Classes is one of the best tuition center in Delhi. 
+			Deepen Classes provides quality and focused teaching for its student to perfectly aim towards their career goal. 
+			We also provide Home Tuitions at affordable prices." />
     
 		<meta name="keywords" content="Deepen Classes, Official Website of Deepen Classes, 
 			Best Tution Center, Best Tution Center in Delhi, Best Tution Center in New Delhi,
-			Tution Center near me, Biology, Chemistry, Mathematics, Science, Home Tution" />
+			Tution Center near me, Biology, Chemistry, Mathematics, Science, Home Tution, Tuition Center" />
 		
 		<meta name="author" content="Pradeep Singh" /> 
 		
@@ -32,8 +32,6 @@
         		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		        	
-		<link href="style.css" rel="stylesheet" media="all" />
-
 		<link rel="shortcut icon" href="favicon2.ico" type="image/x-icon" />                
 		<!-- bootstrap and jquery -->
                 
@@ -44,6 +42,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
             
         <!-- font awesome -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -56,7 +55,8 @@
         
         <!-- font mfizz -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css" />
-		
+			<link href="style.css" rel="stylesheet" media="all" />
+	
 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107436040-1" ></script>
 		<script>
@@ -79,7 +79,7 @@
 		<!-- End Google Tag Manager (noscript) -->
 
 		<!-- Navbar Start -->		
-		<nav class="navbar navbar-inverse navbar-fixed-top">
+		<nav class="navbar navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarcol">
@@ -88,21 +88,22 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-							
-						<a href="https://mepsrajput.github.io/" class="navbar-brand" 
-							id="navbar-brand">Deepen Classes
-						</a>
+						<div id="navbar-brand">
+							<img src="images/student.svg" height="60px" alt="Web Dev">
+							<a href="https://mepsrajput.github.io/deepenclasses"><span style="color: #fff; font-family: Kavivanar; font-size: 20px; line-height: 55px">Deepen Classes</span>
+							</a>
+						</div>
 				</div>					
 					
 				<div id="navbarcol" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a class="active" href="#about" style="color: white">
+						<li><a class="active" href="index.html" style="color: white">
 								Home&nbsp;(<span class="glyphicon glyphicon-user navGlyphicon"></span><span>)</span></a>
 						</li>
-						<li><a href="#expertise" style="color: white">About Us</a></li>
-						<li><a href="#skills" style="color: white">Faculty</a></li>
-						<li><a href="#projects" style="color: white">Courses</a></li>
-						<li><a href="#contact" style="color: white">Contact Us&nbsp;(<span 
+						<li><a href="AboutUs.html">About Us</a></li>
+						<li><a href="Faculty.html">Faculty</a></li>
+						<li><a href="Courses.html">Courses</a></li>
+						<li><a href="ContactUs.html">Contact Us&nbsp;(<span 
 							class="glyphicon glyphicon-phone-alt navGlyphicon">
 							</span><span>)</span></a>
 						</li>
@@ -111,23 +112,66 @@
 		    </div><!-- container end -->
 		</nav><!-- Navbar End -->		
 
+
+
+
 		<!-- start of about-section -->		
 		<div class="aboutContainer parallax noselect" id="about">
 			<div class="aboutOverlay"></div>
 			<div class="container-fluid insideContainer">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<div id="content">
-							<img id="img1" class="img-responsive img-circle center-block" alt="Pradeep Singh" 
-								src="img/image1.jpg">
-						</div>
-					</div>
-				</div>
+			<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://www.w3schools.com/bootstrap/chicago.jpg" alt="Los Angeles" style="width:100%;">
+		<div class="carousel-caption">
+			<h3>Los Angeles</h3>
+			<p>LA is always so much fun!</p>
+		</div>
+      </div>
+
+      <div class="item">
+        <img src="https://www.w3schools.com/bootstrap/la.jpg" alt="Chicago" style="width:100%;">
+		<div class="carousel-caption">
+			<h3>Los Angeles</h3>
+			<p>LA is always so much fun!</p>
+		</div>
+	  </div>
+    
+      <div class="item">
+        <img src="https://www.w3schools.com/bootstrap/ny.jpg" alt="New york" style="width:100%;">
+		<div class="carousel-caption">
+			<h3>Los Angeles</h3>
+			<p>LA is always so much fun!</p>
+		</div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 				<div class="row">
 					<div class="col-md-12 col-sm-12 text-center">
-						<div id="intro">Official Website of Deepen Classes. Deepen Classes is one of the best tution center in Delhi. 
-							Deepen Classes provides quality and focussed teaching for its student to perfectly aim towards their career goal. 
-							We also provide Home Tutions at affordable prices.
+						<div id="intro"><b>Deepen Classes</b> is one of the best tuition center in Delhi, 
+						which provides quality and focused teaching for its student 
+						to perfectly aim towards their career goal. 
+						We also provide Home Tuitions at affordable prices.
 						</div>
 					</div>
 				</div>

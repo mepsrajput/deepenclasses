@@ -49,11 +49,45 @@ nav.navbar {
 /* ---------  start of navbar ------------------------------------------------
 ---------------------------------------------------------------------------------- */
 #navbar-brand {	
-	margin-left: 30px;
+	margin-left: 50px;
+	padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+	color: #fff;
 }/*end of navbar-section*/
 
+.navbar-fixed-top {
+    min-height: 80px;
+}
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+	color: #eee;
+}
+
+.navbar, #navbarcol ul li a{
+    color: #fff;
+    background-color: #1919ef;
+}
+
+#navbarcol ul li a:hover{
+    background-color: #0000a6;
+}
+#navbarcol ul li a:active{
+    background-color: green;
+}
 /* ---------  start of about-section ------------------------------------------------
 ---------------------------------------------------------------------------------- */
+.container {
+	width: 100%;
+	padding: 0px;
+	height: 70vh;
+}
+.carousel-inner {
+	height: 70vh;
+}
+
 .aboutContainer {
   position: relative;
   width: 100%;
@@ -91,7 +125,7 @@ div#intro {
 	color: #000;
 	padding: 20px 25px;
 	border-radius: 90px 0px;
-	font-size: 2.4em;
+	font-size: 1.4em;
 	font-family: Lobster, Material;
 	text-align:justify-all;
 }
@@ -498,7 +532,7 @@ input[type=submit]:hover {
 /* ---------  start of footer-section ------------------------------------------------
 ---------------------------------------------------------------------------------- */
 .footer {
-	background-color: #222;
+	background-color: #1919ef;
 	height: 300px;
 	color: #eee;
 	padding: 30px 0px 0px;
