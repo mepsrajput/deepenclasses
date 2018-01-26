@@ -110,30 +110,8 @@ nav.navbar {
   width: 100%;
 }
 
-.aboutOverlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #add6ff ;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  opacity: 0.4;
-
-}
-
 div#content {
 	margin-top: 150px;
-}
-
-div.parallax {
-	background-image: url("img/aboutimage2.jpg");
-	height: 100%;  
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 div#intro {
