@@ -21,9 +21,9 @@ html {
 		font:14px Helvetica,Arial,sans-serif;  
 		width:500px;
 		}
-	#mc_embed_signup input[type=text],#mc_embed_signup input[type=email] {
+	#mc_embed_signup input[type=text], #mc_embed_signup input[type=email] {
 		color: black;
-		width: 350px;
+		width: 90%;
 	}
 	#mc_embed_signup input[type=submit] {
 		width: 120px;
