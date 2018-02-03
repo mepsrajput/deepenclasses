@@ -79,26 +79,13 @@ nav.navbar {
 
 /* ---------  start of about-section ------------------------------------------------
 ---------------------------------------------------------------------------------- */
-	
-	/* carousel starts     */
-	.container {
-		width: 100%;
-		padding: 0px;
-		height: 70vh;
-	}
-
-	.carousel-inner {
-		height: 70vh;
-	}
-	/* carousel ends     */
-
 	div#content {
 		margin-top: 150px;
 	}
 
 	div#intro {
 		width: 80vw; 
-		margin: auto;
+		margin-top: 300px;
 		color: #000;
 		padding: 20px 25px;
 		border-radius: 90px 0px;
