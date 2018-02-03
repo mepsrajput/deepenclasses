@@ -312,22 +312,11 @@ nav.navbar {
 ---------------------------------------------------------------------------------- */
 	.footer {
 		background-color: #1414bf;
-		height: 350px;
+		height: 320px;
 		color: #eee;
 		padding: 30px 0px 0px;
 	}
 	
-	.flex-container {
-
-	  display: flex;
-	  justify-content: center;
-	}
-
-	.flex-container > div {
-		flex:1;
-		margin: 10px;
-		text-align: center;
-	}
 	.goTop {
 		width: 50px;
 		line-height: 50px;
