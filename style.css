@@ -91,11 +91,6 @@ nav.navbar {
 		height: 70vh;
 	}
 	/* carousel ends     */
-	
-	.aboutContainer {
-	  position: relative;
-	  width: 100%;
-	}
 
 	div#content {
 		margin-top: 150px;
@@ -405,12 +400,11 @@ nav.navbar {
 /*Mobile Optimization -------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------*/
 	@media screen and (max-width: 768px){
-		.parallax {
-			background-attachment: scroll;
-		}
+		
 		div#content {
-		margin-top: 80px;
+			margin-top: 80px;
 		}
+		
 		div#intro {
 			font-size: 1.2em;
 			width: 95vw; 
@@ -425,10 +419,6 @@ nav.navbar {
 
 		.h1Text{
 		font-size: 36px;
-		}
-
-		div#skills h1{
-			margin: 110px auto 10px;
 		}
 
 		hr#lineStyle1 {
@@ -449,8 +439,6 @@ nav.navbar {
 			padding-top: 300px !important;
 			margin-top: 300px !important;
 		}
-		
-		
 		
 		#expertise {
 			height: 150vh;
@@ -474,12 +462,14 @@ nav.navbar {
 			padding: 0;
 			height: 160px;
 			margin-top:50px;
-
+		}
+		
+		#trying5, #trying6 {
+			display: none;
 		}
 		
 		img#expertiseImg1{
 			width: 50vw;
-			height
 		}
 		img#expertiseImg2{
 			width: 50vw;
